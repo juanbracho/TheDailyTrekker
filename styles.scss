@@ -252,88 +252,35 @@ section {
             line-height: 2rem;
             text-align: justify;
         }
-    }
-}
 
-
-.timeline {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    padding-bottom: 3rem;
-
-    .timeline-item {
-        position: relative;
-        padding-left: 2rem;
-        border-left: 1px solid var(--color-grey-5);
-
-        .timeline-icon {
-            position: absolute;
-            left: -27px;
-            top: 0;
-            background-color: var(--color-secondary);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            i {
-                font-size: 1.5rem;
-            }
-        }
-
-        .timeline-duration {
-            pad: .2rem .6rem;
-            background-color: var(--color-grey-5);
-            border-radius: 15px;
-            display: inline-block;
-            font-size: .8rem;
-            text-transform: uppercase;
+        .button {
+            display: inline-flex;
+            padding-left: 5px;
+            background-color: #E8C547;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            overflow: hidden;
+            font-size: 16px;
             font-weight: 500;
+            cursor: pointer;
+            padding-right: 5px;
+            align-items: center;
+            height: 100%;
+
         }
 
-        h5 {
-            padding: 1rem 0;
-            text-transform: uppercase;
-            font-size: 1rem;
-            font-weight: 600;
-
-            span {
-                color: var(--color-grey-2);
-                font-weight: 500;
-                font-size: 1rem;
-            }
-        }
-
-        p {
-            color: var(--color-grey-2);
+        .btn-icon {
+            display: inline-flex;
+            align-items: center;
+            padding-left: 5px;
+            padding-right: 5px;
+            height: 100%;
         }
     }
 }
 
-//Work Experience section
 
-.experience-item {
-    padding-top: 5rem;
-    text-align: justify;
-}
-
-.experience-title {
-    padding-top: 3rem;
-
-    span {
-        color: var(--color-secondary);
-    }
-}
-
-li {
-    list-style-type: circle;
-    line-height: 1.5rem;
-
-}
-*/
 //Services section
 .services {
     display: grid;
@@ -468,57 +415,6 @@ li {
             align-self: center;
             justify-content: center;
             transition: all .4s ease-in-out;
-        }
-    }
-}
-
-//Independent Component. Active download button. Classes use in different sections.
-.btn-con {
-    display: flex;
-    align-self: flex-start;
-}
-
-.main-btn {
-    border-radius: 30px;
-    color: inherit;
-    font-weight: 600;
-    position: relative;
-    border: 1px solid var(--color-secondary);
-    display: flex;
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-
-    .btn-text {
-        padding: 0 2rem;
-    }
-
-    .btn-icon {
-        background-color: var(--color-secondary);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        padding: 1rem;
-    }
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translateX(100%);
-        transition: all .4s ease-in-out;
-        z-index: -1;
-    }
-
-    &:hover {
-        &::before {
-            width: 100%;
-            height: 100%;
-            background-color: var(--color-secondary);
-            transform: translateX(0);
         }
     }
 }
