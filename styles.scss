@@ -381,41 +381,12 @@ section {
     }
 
     .right-contact {
-        flex: 3;
-        margin-left: 3rem;
-
-        .input-control {
-            margin: 1.5rem 0;
-
-            input,
-            textarea {
-                border-radius: 30px;
-                font-weight: inherit;
-                font-size: inherit;
-                font-family: inherit;
-                padding: .8rem 1.1rem;
-                outline: none;
-                border: none;
-                width: 100%;
-                background-color: var(--color-white);
-                resize: none;
-            }
-        }
-
-        .text-email {
-            display: flex;
-
-            :last-child {
-                margin-left: 1.5rem;
-            }
-        }
-
-        .submit-btn {
-            display: flex;
-            align-self: center;
-            justify-content: center;
-            transition: all .4s ease-in-out;
-        }
+        align-items: center;
+    }
+    
+    .googlemap {
+        height:100%;
+        width:100%;
     }
 }
 

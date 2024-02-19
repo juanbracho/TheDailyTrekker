@@ -452,36 +452,11 @@ section {
   padding: 0 !important;
 }
 .contact-content .right-contact {
-  flex: 3;
-  margin-left: 3rem;
+  align-items: center;
 }
-.contact-content .right-contact .input-control {
-  margin: 1.5rem 0;
-}
-.contact-content .right-contact .input-control input,
-.contact-content .right-contact .input-control textarea {
-  border-radius: 30px;
-  font-weight: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  padding: 0.8rem 1.1rem;
-  outline: none;
-  border: none;
+.contact-content .googlemap {
+  height: 100%;
   width: 100%;
-  background-color: var(--color-white);
-  resize: none;
-}
-.contact-content .right-contact .text-email {
-  display: flex;
-}
-.contact-content .right-contact .text-email :last-child {
-  margin-left: 1.5rem;
-}
-.contact-content .right-contact .submit-btn {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  transition: all 0.4s ease-in-out;
 }
 
 .main-title {
