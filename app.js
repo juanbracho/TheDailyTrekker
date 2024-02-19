@@ -46,7 +46,7 @@ PageTransitions();
 
 //Appointment button email template
 document.getElementById("emailButton").addEventListener("click", function() {
-    var subject = "Appointment Request with Eric Miller";
+    var subject = "Appointment Request for a new client";
     var body = "I would like to request an appointment on (Date) at (Time) with Eric Miller under Dr. Walters.";
   
     var mailtoLink = "mailto:askparkerclinics@parker.edu" +
