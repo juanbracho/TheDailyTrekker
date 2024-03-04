@@ -1,0 +1,56 @@
+* {
+  margin-inline: auto;
+  text-align: center;
+  align-items: center;
+  font-family: poppins;
+}
+
+/*Navbar*/
+
+.navbar {
+  background-color: burlywood;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*Hero Section*/
+
+.hero-img {
+  max-height: 250px;
+  margin: 5px;
+}
+
+.container {
+  min-width: 320px;
+  background-color: darkgrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*Services Section*/
+
+.img-service {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 5px;
+}
+
+.info {
+  background-color: white;
+  margin: 5px;
+}
+
+/*Media Queries*/
+
