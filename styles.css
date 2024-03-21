@@ -54,3 +54,23 @@
 
 /*Media Queries*/
 
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 720px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .col {
+    min-height: 50px;
+  }
+  
+  .col p {
+    min-height: 72px;
+  }
+
+  .img-service {
+    max-height: 50px;
+  }
+}
