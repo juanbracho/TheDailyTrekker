@@ -74,3 +74,22 @@
     max-height: 50px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .col {
+    width: 100%;
+  }
+
+  .col p {
+    min-height: 0;
+  }
+
+  #service1 {
+    display: none;
+  }
+  #service2 {
+    display: none;
+  }
+  #service3 {
+    display: none;
+  }
